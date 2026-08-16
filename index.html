@@ -1,31 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl" lang="ar">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Atlas</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
-  <style> @import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');</style>
+  <link rel="stylesheet" href="lecp.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');</style>
   <style>
     body {
-      font-family: 'Zain';
+      font-family: 'Zain', var(--lecp-font);
     }
   </style>
 </head>
 
-<body class="has-text-centered">
-  <section class="hero is-fullheight">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title margin-bottom">
+<body>
+  <section>
+    <div class="lecp-container" style="padding-top: var(--lecp-space-7); padding-bottom: var(--lecp-space-7);">
+      <div>
+        <h1 class="lecp-title">
           أطلس للتقنية والذكاء الاصطناعي
         </h1>
-        <p class="subtitle m-3">
+        <p class="lecp-body lecp-mt-3">
           مؤسسة<strong> غير ربحية</strong> لنشر الثقافة التقنية
         </p>
-        <p class="subtitle m-3">عد لزيارتنا قريباً</p>
-        <progress></progress>
+
+        <p class="lecp-meta lecp-mt-6 lecp-mb-3">روابط ذات صلة:</p>
+
+        <div class="lecp-grid">
+          <a class="lecp-tile lecp-col-c-4" href="https://www.tiktok.com/@atlas.ly7"
+            target="_blank" rel="noopener">
+            <span class="lecp-meta">تيك توك</span>
+            <h3 class="lecp-tile-label">TikTok</h3>
+            <span class="lecp-sr-only">(يفتح في نافذة جديدة)</span>
+            <span class="lecp-tile-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <a class="lecp-tile lecp-col-c-4"
+            href="https://www.instagram.com/libyanatlas"
+            target="_blank" rel="noopener">
+            <span class="lecp-meta">انستغرام</span>
+            <h3 class="lecp-tile-label">Instagram</h3>
+            <span class="lecp-sr-only">(يفتح في نافذة جديدة)</span>
+            <span class="lecp-tile-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <a class="lecp-tile lecp-col-c-4" href="https://www.facebook.com/share/1GwwMrQKKY/" target="_blank"
+            rel="noopener">
+            <span class="lecp-meta">فيسبوك</span>
+            <h3 class="lecp-tile-label">Facebook</h3>
+            <span class="lecp-sr-only">(يفتح في نافذة جديدة)</span>
+            <span class="lecp-tile-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
       </div>
     </div>
   </section>
